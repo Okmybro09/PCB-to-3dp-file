@@ -1,0 +1,14 @@
+# Gerber → 3D Converter dependencies
+# Install with: pip install -r requirements.txt
+
+# Gerber + Excellon parsing (modern, actively maintained)
+gerbonara>=1.0
+
+# 2D geometry (polygon operations)
+shapely>=2.0
+
+# 3D CAD modelling + STEP/STL export
+cadquery>=2.4
+
+# numpy (pulled in by cadquery, listed for clarity)
+numpy>=1.24
